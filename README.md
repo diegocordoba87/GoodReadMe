@@ -1,10 +1,9 @@
+![License](https://img.shields.io/badge/License-MIT-red)
+
 # Good ReadMe
 
 ## Description
 This program will help users create a readme file with ease and without having to think too much about what they should add to it.
-
-![License](https://img.shields.io/badge/License-MIT-red)
-
 
 ![Sample One](gifs/samplegifOne.gif)
 ![Sample Readme](gifs/sampleReadMegif.gif)

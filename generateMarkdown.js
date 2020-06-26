@@ -43,7 +43,8 @@ ${answers.credits}
 
 ## Questions
 
-If you have any questions pleae direct them to my email address: ${answers.email} or contact me via GitHub here: ${answers.githublink}
+If you have any questions pleae direct them to my email address: ${answers.email} or contact me via GitHub here: 
+https://github.com${answers.githubUserName}
  
 `;
 }
