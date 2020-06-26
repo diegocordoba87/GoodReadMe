@@ -1,9 +1,11 @@
-# title goes here
-
-# Description
-project description goes here
-
 ![License](https://img.shields.io/badge/License-MIT-red)
+  
+#title goes here
+
+## Description
+provide description here
+
+
 
 
 
@@ -16,16 +18,16 @@ project description goes here
 
 
 ## Installation
-add your steps here
+list steps for installation here
 
 
 ## Usage 
-add your usage examples here
+provide exmaples and usage here
 
 
 ## Test Instructions
 
-not at the moment
+none at the mpment
 
 
 ## MIT License
@@ -35,9 +37,10 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-if you have any, list them here
+none at the moment
 
 ## Questions
 
-If you have any questions pleae direct them to my email address: name@gmail.com or contact me via GitHub here: github.com/name
+If you have any questions pleae direct them to my email address: diego@gmail.com or contact me via GitHub here: 
+https://github.com/diegocordoba87
  
