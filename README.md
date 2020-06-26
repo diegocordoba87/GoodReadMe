@@ -34,7 +34,7 @@ Not at the moment.
 
 ## Contributing
 
- There are no collaborators at the moment. https://github.com/diegocordoba87, https://github.com/diegocordoba87
+ There are no collaborators at the moment.
 
 ## Questions
 
