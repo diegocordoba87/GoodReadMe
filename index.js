@@ -1,4 +1,4 @@
-// array of questions for user
+
 const questions = [
     {
       type: "input",
@@ -22,7 +22,7 @@ const questions = [
       },
       {
         type: "input",
-        message: "List your collaborators, if any, with links to their GitHub profiles.",
+        message: "List your collaborators, if any, with links to their GitHub profiles (separate them with commas).",
         name: "credits"
       },
       {
@@ -32,7 +32,7 @@ const questions = [
       },
       {
         type: "list",
-        message: "Choose a license for your application",
+        message: "Choose a license for your application (Default will be MIT)",
         choices: ["Apache", "GNU","MIT"],
         name: "license"
       },
@@ -49,24 +49,24 @@ const questions = [
   ];
 
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./generateMarkdown')
 const inquirer = require('inquirer');
 
-inquirer
-  .prompt(questions)
-  .then(function (answers) {
+inquirer.prompt(questions).then(answers => {
         
     const fileName = 'sampleREADME.md';
- //     //function to write README file
+
      
      writeToFile(fileName, answers)
      
 })
+
 function writeToFile(fileName, answers) {
  fs.writeFile(fileName, generateMarkdown(answers, null, '\t'), function (err) {
      if (err) {
-         return console.log(err)
+         throw err
      }
+
  })
 }
 
