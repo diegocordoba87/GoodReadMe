@@ -1,14 +1,5 @@
 // array of questions for user
-const questions = [""
-
-];
-
-const genertaeMarkdown = require("utils/generateMarkdown.js")
-
-const inquirer = require("inquirer");
-
-inquirer
-  .prompt([
+const questions = [
     {
       type: "input",
       message: "What is your project's title?",
@@ -42,7 +33,7 @@ inquirer
       {
         type: "list",
         message: "Choose a license for your application",
-        choices: ["None","Apache License 2.0", "GNU General Public License v3.0","MIT License","Eclipse Public License 2.0", "Mozilla Public License 2.0","The Unilicense"],
+        choices: ["None","Apache License 2.0", "GNU General Public License v3.0","MIT License"],
         name: "license"
       },
       {
@@ -55,17 +46,24 @@ inquirer
           message: "Provide your GitHub profile link",
           name: "githublink"
       }
-  ])
+  ];
+
+const generateMarkdown = require('./utils/generateMarkdown')
+const inquirer = require('inquirer');
+
+inquirer
+  .prompt(questions)
   .then(answers => {
-    console.log(answers);
-    console.log(answers.title);
-    console.log(answers.description);
-    console.log(answers.license);
+
+   console.log(answers)
+   function writeToFile("goodReadMe, generateMarkdown(answers)) {
+  }
+
   });
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+
+
 
 // function to initialize program
 function init() {
