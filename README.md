@@ -6,6 +6,8 @@ This program will help users create a readme file with ease and without having t
 ![License](https://img.shields.io/badge/License-MIT-red)
 
 
+![Sample One](gifs/samplegifOne.gif)
+![Sample Readme](gifs/sampleReadMegif.gif)
 
 ## Table of Contents 
 * [Installation](#installation)

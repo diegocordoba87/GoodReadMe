@@ -1,11 +1,13 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  return `# ${answers.title}
+  return `![License](https://img.shields.io/badge/License-${answers.license}-red)
+  
+#${answers.title}
 
-# Description
+## Description
 ${answers.description}
 
-![License](https://img.shields.io/badge/License-${answers.license}-red)
+
 
 
 
@@ -31,6 +33,8 @@ ${answers.test}
 
 
 ## ${answers.license} License
+
+This project is licensed under the ${answers.license} license.
 
 
 ## Contributing

@@ -1,7 +1,7 @@
-# Good ReadMe
+# title goes here
 
-## Description
-This program will help users create a readme file with ease and without having to think too much about what they should add to it.
+# Description
+project description goes here
 
 ![License](https://img.shields.io/badge/License-MIT-red)
 
@@ -16,26 +16,28 @@ This program will help users create a readme file with ease and without having t
 
 
 ## Installation
-undefined
+add your steps here
 
 
 ## Usage 
-You can use this any time you can't think of what to ad to your readme.
+add your usage examples here
 
 
 ## Test Instructions
 
-Not at the moment.
+not at the moment
 
 
 ## MIT License
 
+This project is licensed under the MIT license.
+
 
 ## Contributing
 
- There are no collaborators at the moment. https://github.com/diegocordoba87, https://github.com/diegocordoba87
+if you have any, list them here
 
 ## Questions
 
-If you have any questions pleae direct them to my email address: diegocordoba87@gmail.com or contact me via GitHub here: https://github.com/diegocordoba87
+If you have any questions pleae direct them to my email address: name@gmail.com or contact me via GitHub here: github.com/name
  
