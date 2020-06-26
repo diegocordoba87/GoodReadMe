@@ -6,7 +6,7 @@ function generateMarkdown(answers) {
 ${answers.description}
 
 ![License](https://img.shields.io/badge/License-${answers.license}-red)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
 
 
 ## Table of Contents 
@@ -25,7 +25,8 @@ ${answers.installation}
 ${answers.usage}
 
 
-##Test Instructions
+## Test Instructions
+
 ${answers.test}
 
 
@@ -33,15 +34,13 @@ ${answers.test}
 
 
 ## Contributing
-${answers.contributing}
+
+${answers.credits}
 
 ## Questions
-If you have any questions pleae direct them to my email address: ${answers.email} or contact me via GitHub here: ${answers.github}
+
+If you have any questions pleae direct them to my email address: ${answers.email} or contact me via GitHub here: ${answers.githublink}
  
-
-
-
-
 `;
 }
 

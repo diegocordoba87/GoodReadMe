@@ -33,7 +33,7 @@ const questions = [
       {
         type: "list",
         message: "Choose a license for your application",
-        choices: ["None","Apache License 2.0", "GNU General Public License v3.0","MIT License"],
+        choices: ["Apache", "GNU","MIT"],
         name: "license"
       },
       {
@@ -48,27 +48,30 @@ const questions = [
       }
   ];
 
+const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 const inquirer = require('inquirer');
 
 inquirer
   .prompt(questions)
-  .then(answers => {
+  .then(function (answers) {
+        
+    const fileName = 'sampleREADME.md';
+ //     //function to write README file
+     
+     writeToFile(fileName, answers)
+     
+})
+function writeToFile(fileName, answers) {
+ fs.writeFile(fileName, generateMarkdown(answers, null, '\t'), function (err) {
+     if (err) {
+         return console.log(err)
+     }
+ })
+}
 
-   console.log(answers)
-   function writeToFile("goodReadMe, generateMarkdown(answers)) {
-  }
-
-  });
-
-// function to write README file
-
-
-
-// function to initialize program
 function init() {
 
 }
 
-// function call to initialize program
 init();
