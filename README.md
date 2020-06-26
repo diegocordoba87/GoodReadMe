@@ -31,6 +31,7 @@ Not at the moment.
 
 ## MIT License
 
+This project is licensed under the MIT license.
 
 ## Contributing
 
