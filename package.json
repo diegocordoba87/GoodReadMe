@@ -1,0 +1,22 @@
+{
+  "name": "goodreadme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegocordoba87/GoodReadMe.git"
+  },
+  "author": "Diego Cordoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegocordoba87/GoodReadMe/issues"
+  },
+  "homepage": "https://github.com/diegocordoba87/GoodReadMe#readme",
+  "dependencies": {
+    "inquirer": "^7.2.0"
+  }
+}
